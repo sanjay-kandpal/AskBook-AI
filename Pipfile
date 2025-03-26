@@ -9,6 +9,9 @@ langchain-community = "*"
 langchain-huggingface = "*"
 faiss-cpu = "*"
 pypdf = "*"
+flask = "*"
+werkzeug = "*"
+flask-cors = "*"
 
 [dev-packages]
 
