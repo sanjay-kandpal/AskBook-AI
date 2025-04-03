@@ -1,10 +1,5 @@
 #!/bin/bash
-
-# Make sure the script fails on error
-set -e
-
-# Create necessary directories
-mkdir -p uploads data vectorstore/db_faiss
-
-# Start Gunicorn
-gunicorn --bind=0.0.0.0:8000 app:app
+echo "Starting up"
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+gunicorn --bind=0.0.0.0 --timeout 600 app:app
