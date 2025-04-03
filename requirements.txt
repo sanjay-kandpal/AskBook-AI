@@ -8,3 +8,4 @@ pypdf
 sentence-transformers
 huggingface_hub
 azure-storage-blob
+gunicorn
