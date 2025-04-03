@@ -1,0 +1,10 @@
+flask
+flask-cors
+werkzeug
+langchain
+langchain-huggingface
+faiss-cpu
+pypdf
+sentence-transformers
+huggingface_hub
+azure-storage-blob

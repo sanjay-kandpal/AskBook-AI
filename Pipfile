@@ -12,6 +12,7 @@ pypdf = "*"
 flask = "*"
 werkzeug = "*"
 flask-cors = "*"
+azure-storage-blob = "*"
 
 [dev-packages]
 

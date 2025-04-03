@@ -1,0 +1,1198 @@
+2025-03-26 17:39:05,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.187.50:5000
+2025-03-26 17:39:05,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-26 17:39:14,120 - __main__ - INFO - Uploaded file: data/upload_e4331965-9bed-4878-9849-2a0aeacd4a38\Resume.pdf
+2025-03-26 17:39:14,519 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-03-26 17:39:14,519 - __main__ - INFO - Loaded document: data\upload_e4331965-9bed-4878-9849-2a0aeacd4a38\Resume.pdf
+2025-03-26 17:39:14,519 - __main__ - INFO - Created 5 text chunks
+2025-03-26 17:39:22,783 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:39:22,783 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:39:26,774 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-26 17:39:26,827 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-26 17:39:26,835 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-26 17:39:27,252 - __main__ - INFO - Added new documents to existing vector store
+2025-03-26 17:39:27,260 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:39:27] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:42:16,931 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:42:16] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:42:17,196 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:42:17,197 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:42:22,774 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:42:22] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:42:55,702 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:42:55] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:42:55,956 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:42:55,957 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:43:01,323 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:43:01] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:43:55,528 - __main__ - INFO - Uploaded file: data/upload_5e2b6fae-dc9c-4a02-bd97-8c9530ae4749\Resume.pdf
+2025-03-26 17:43:55,572 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-03-26 17:43:55,573 - __main__ - INFO - Loaded document: data\upload_5e2b6fae-dc9c-4a02-bd97-8c9530ae4749\Resume.pdf
+2025-03-26 17:43:55,573 - __main__ - INFO - Created 5 text chunks
+2025-03-26 17:43:55,575 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:43:55,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:43:58,750 - __main__ - WARNING - Creating new vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open vectorstore\db_faiss\index.faiss for reading: No such file or directory
+2025-03-26 17:43:58,885 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:43:58] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:44:54,145 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.187.50:5000
+2025-03-26 17:44:54,147 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-26 17:45:05,751 - __main__ - INFO - Uploaded file: data/upload_fb764646-72af-4003-abfa-893d711fb3c0\Resume.pdf
+2025-03-26 17:45:06,112 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-03-26 17:45:06,113 - __main__ - INFO - Loaded document: data\upload_fb764646-72af-4003-abfa-893d711fb3c0\Resume.pdf
+2025-03-26 17:45:06,113 - __main__ - INFO - Created 5 text chunks
+2025-03-26 17:45:13,319 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:45:13,319 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:45:17,015 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-26 17:45:17,038 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-26 17:45:17,048 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-26 17:45:17,211 - __main__ - INFO - Added new documents to existing vector store
+2025-03-26 17:45:17,213 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:45:17] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:46:11,345 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:46:11] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:46:11,609 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:46:11,610 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:46:16,291 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:46:16] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:48:40,756 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.187.50:5000
+2025-03-26 17:48:40,757 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-26 17:48:49,949 - __main__ - INFO - Uploaded file locally: data/upload_42625ef5-61ee-4ad2-a306-2a8c3c8fc1e9\Resume.pdf
+2025-03-26 17:48:49,964 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/9c7a6c3d-77f8-438d-80d8-ef40a68c928a_Resume.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '108189'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '79679cbf-0a3c-11f0-855d-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:48:52,795 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Wed, 26 Mar 2025 12:18:54 GMT'
+    'ETag': '"0x8DD6C60603BA97B"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8208c31-d01e-0003-7c49-9e1984000000'
+    'x-ms-client-request-id': '79679cbf-0a3c-11f0-855d-24ee9a2b78e7'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Wed, 26 Mar 2025 12:18:54 GMT'
+2025-03-26 17:48:52,797 - __main__ - INFO - Uploaded file to blob storage: 9c7a6c3d-77f8-438d-80d8-ef40a68c928a_Resume.pdf
+2025-03-26 17:48:52,999 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-03-26 17:48:53,000 - __main__ - INFO - Loaded document: data\upload_42625ef5-61ee-4ad2-a306-2a8c3c8fc1e9\Resume.pdf
+2025-03-26 17:48:53,000 - __main__ - INFO - Created 5 text chunks
+2025-03-26 17:48:59,877 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:48:59,877 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:49:03,729 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-26 17:49:03,749 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-26 17:49:03,756 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-26 17:49:03,757 - __main__ - WARNING - Creating new vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open vectorstore\db_faiss\index.faiss for reading: No such file or directory
+2025-03-26 17:49:03,871 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:49:03] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:49:18,149 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:49:18] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:49:18,415 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:49:18,417 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:49:24,302 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:49:24] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:49:42,217 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:49:42] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:49:42,484 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:49:42,484 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:49:47,872 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:49:47] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:50:12,590 - __main__ - INFO - Uploaded file locally: data/upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:50:12,618 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/3be9f939-47f9-498b-a8a4-12064e95a7b4_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'aaab9874-0a3c-11f0-a954-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:50:48,175 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/3be9f939-47f9-498b-a8a4-12064e95a7b4_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bfdd6765-0a3c-11f0-9b49-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:51:26,292 - __main__ - INFO - Uploaded file locally: data/upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:51:26,311 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/5f1c0553-c67e-42f7-8725-26668d6934df_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd6985be1-0a3c-11f0-8878-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:51:35,613 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/3be9f939-47f9-498b-a8a4-12064e95a7b4_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dc23d258-0a3c-11f0-aef2-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:51:54,661 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:51:54] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:51:54,927 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:51:54,927 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:52:00,567 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:52:00] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:52:07,756 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/5f1c0553-c67e-42f7-8725-26668d6934df_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'ef4c7bb8-0a3c-11f0-ba1b-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:52:40,294 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/3be9f939-47f9-498b-a8a4-12064e95a7b4_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '02b14e48-0a3d-11f0-b077-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:52:52,006 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/5f1c0553-c67e-42f7-8725-26668d6934df_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '09ac7824-0a3d-11f0-9eb4-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:53:08,368 - __main__ - ERROR - Failed to upload SystemDesign.pdf to blob storage: The operation did not complete (write) (_ssl.c:2406)
+2025-03-26 17:53:17,753 - __main__ - INFO - Loaded 269 pages from 1 PDF files
+2025-03-26 17:53:17,754 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,754 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,754 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,754 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,755 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,755 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,755 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,755 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,755 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,756 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,756 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,756 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,756 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,757 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,757 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,757 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,758 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,759 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,759 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,759 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,759 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,759 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,760 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,760 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,760 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,760 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,761 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,762 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,763 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,763 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,763 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,763 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,763 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,764 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,765 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,767 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,768 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,769 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,770 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,771 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,772 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,772 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,772 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,772 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,773 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,773 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,773 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,773 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,773 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,774 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,774 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,774 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,774 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,774 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,775 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,775 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,775 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,775 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,775 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,776 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,776 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,776 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,776 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,776 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,777 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,777 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,778 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,778 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,778 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,779 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,779 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,779 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,779 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,780 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,780 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,780 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,781 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,781 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,781 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,782 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,782 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,782 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,782 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,783 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,783 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,783 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,783 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,784 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,784 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,784 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,784 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,785 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,785 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,786 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,786 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,786 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,787 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,787 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,787 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,788 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,789 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,789 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,790 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,790 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,790 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,791 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,791 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,791 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,792 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,792 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,792 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,792 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,793 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,793 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,793 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,794 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,794 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,795 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,795 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,795 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,795 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,796 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,796 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,796 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,796 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,797 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,797 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,797 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,797 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,798 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,798 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,799 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,800 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,800 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,801 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,801 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,803 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,803 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,803 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,804 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,804 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,804 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,805 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,805 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,805 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,806 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,806 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,806 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,807 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,807 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,807 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,808 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,808 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,808 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,809 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,810 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,811 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,811 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,812 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,812 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,812 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,813 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,813 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,813 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,813 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,814 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,814 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,814 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,814 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,815 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,815 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,816 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,817 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,818 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,818 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,819 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,819 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,820 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,821 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,821 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,821 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,821 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,822 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,822 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,822 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,823 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,823 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,823 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,824 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,824 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,824 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,825 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,825 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,825 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,826 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,826 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,826 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,827 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,827 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,827 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,827 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,827 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,828 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,828 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,828 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,829 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,829 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,829 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,830 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,830 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,831 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,831 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,832 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,832 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,833 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,833 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,833 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,834 - __main__ - INFO - Loaded document: data\upload_24e7d8f1-5239-4d5f-b42a-64d90fc45ec9\SystemDesign.pdf
+2025-03-26 17:53:17,855 - __main__ - INFO - Created 735 text chunks
+2025-03-26 17:53:17,858 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:53:17,858 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:53:39,381 - __main__ - INFO - Added new documents to existing vector store
+2025-03-26 17:53:39,386 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:53:39] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:53:54,445 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/5f1c0553-c67e-42f7-8725-26668d6934df_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '2ee3a366-0a3d-11f0-9067-24ee9a2b78e7'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-03-26 17:54:15,542 - __main__ - ERROR - Failed to upload SystemDesign.pdf to blob storage: ('Connection aborted.', TimeoutError('The write operation timed out'))
+2025-03-26 17:54:24,576 - __main__ - INFO - Loaded 269 pages from 1 PDF files
+2025-03-26 17:54:24,577 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,577 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,577 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,577 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,578 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,578 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,578 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,578 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,579 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,579 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,579 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,579 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,579 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,580 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,580 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,580 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,580 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,581 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,581 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,581 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,581 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,581 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,582 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,582 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,582 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,582 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,583 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,583 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,583 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,583 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,583 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,584 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,584 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,584 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,584 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,585 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,585 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,585 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,586 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,586 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,586 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,586 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,586 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,587 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,587 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,587 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,588 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,588 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,588 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,588 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,588 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,589 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,589 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,589 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,589 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,590 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,590 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,590 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,590 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,591 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,591 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,591 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,591 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,592 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,592 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,592 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,592 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,592 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,593 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,593 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,593 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,593 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,593 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,594 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,595 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,596 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,597 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,597 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,597 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,597 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,597 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,598 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,598 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,598 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,598 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,598 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,599 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,600 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,600 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,600 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,600 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,600 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,601 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,601 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,601 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,601 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,602 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,602 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,602 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,602 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,603 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,603 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,603 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,603 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,603 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,604 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,604 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,604 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,605 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,605 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,605 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,605 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,605 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,606 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,606 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,606 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,606 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,606 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,607 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,608 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,608 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,608 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,609 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,609 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,609 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,610 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,610 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,610 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,611 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,611 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,611 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,611 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,611 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,612 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,613 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,613 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,613 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,613 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,614 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,614 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,614 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,614 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,614 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,615 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,615 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,615 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,615 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,615 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,616 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,617 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,617 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,618 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,618 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,618 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,619 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,620 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,622 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,622 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,622 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,622 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,622 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,623 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,624 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,624 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,624 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,624 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,625 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,625 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,625 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,625 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,625 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,626 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,627 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,627 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,627 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,628 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,629 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,630 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,631 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,631 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,631 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,631 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,632 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,632 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,632 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,632 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,632 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,633 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,633 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,633 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,634 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,634 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,634 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,634 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,635 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,635 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,635 - __main__ - INFO - Loaded document: data\upload_177bff13-dd27-482e-b616-a7d81837820f\SystemDesign.pdf
+2025-03-26 17:54:24,658 - __main__ - INFO - Created 735 text chunks
+2025-03-26 17:54:24,660 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:54:24,661 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:54:45,458 - __main__ - INFO - Added new documents to existing vector store
+2025-03-26 17:54:45,466 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:54:45] "POST /process HTTP/1.1" 200 -
+2025-03-26 17:56:06,289 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:56:06] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:56:06,555 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:56:06,556 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:56:12,357 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:56:12] "POST /query HTTP/1.1" 200 -
+2025-03-26 17:56:40,817 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:56:40] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-26 17:56:41,125 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-26 17:56:41,125 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-26 17:56:49,300 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 17:56:49] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:45:55,430 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.209.185:5000
+2025-04-03 15:45:55,432 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 15:46:06,971 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:06] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:46:22,788 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:22] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:46:35,242 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:46:35,242 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:46:35,243 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:46:35,243 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:46:38,469 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:38] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:46:38,737 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:46:38,738 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:46:40,209 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 15:46:40,471 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 15:46:40,481 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 15:46:43,364 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:43] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:46:43,708 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:43] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:46:45,763 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:46:45] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:47:22,869 - __main__ - INFO - Uploaded file locally: data/upload_d8f89d31-0b74-42ff-b785-9ebe79059fc5\Important_topics_interview.pdf
+2025-04-03 15:47:22,886 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/c088e99b-ab70-4025-b68b-975f60d962df_Important_topics_interview.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '54445'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd545de91-1074-11f0-93db-98fa9b562e11'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-04-03 15:47:24,257 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 03 Apr 2025 10:17:23 GMT'
+    'ETag': '"0x8DD7298BA1E70A2"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'f503c0ca-b01e-0048-7281-a4e5d7000000'
+    'x-ms-client-request-id': 'd545de91-1074-11f0-93db-98fa9b562e11'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 03 Apr 2025 10:17:23 GMT'
+2025-04-03 15:47:24,259 - __main__ - INFO - Uploaded file to blob storage: c088e99b-ab70-4025-b68b-975f60d962df_Important_topics_interview.pdf
+2025-04-03 15:47:24,538 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-04-03 15:47:24,539 - __main__ - INFO - Loaded document: data\upload_d8f89d31-0b74-42ff-b785-9ebe79059fc5\Important_topics_interview.pdf
+2025-04-03 15:47:24,539 - __main__ - INFO - Created 5 text chunks
+2025-04-03 15:47:24,541 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:47:24,541 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:47:27,572 - __main__ - INFO - Added new documents to existing vector store
+2025-04-03 15:47:27,575 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:47:27] "POST /process HTTP/1.1" 200 -
+2025-04-03 15:47:36,159 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:47:36] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:47:36,428 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:47:36,428 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:47:43,213 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:47:43] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:55:26,563 - __main__ - INFO - Uploaded file locally: data/upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:26,599 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/71329b6f-e7b4-4396-9812-03ba999ef306_SystemDesign.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '9633299'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f596822f-1075-11f0-ad0c-98fa9b562e11'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-04-03 15:55:36,144 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 03 Apr 2025 10:25:35 GMT'
+    'ETag': '"0x8DD7299DF4FE688"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'cf764e1e-d01e-005e-6e82-a41300000000'
+    'x-ms-client-request-id': 'f596822f-1075-11f0-ad0c-98fa9b562e11'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 03 Apr 2025 10:25:35 GMT'
+2025-04-03 15:55:36,147 - __main__ - INFO - Uploaded file to blob storage: 71329b6f-e7b4-4396-9812-03ba999ef306_SystemDesign.pdf
+2025-04-03 15:55:46,566 - __main__ - INFO - Loaded 269 pages from 1 PDF files
+2025-04-03 15:55:46,567 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,567 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,567 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,567 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,567 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,568 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,569 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,569 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,569 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,570 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,570 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,570 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,571 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,571 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,571 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,571 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,572 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,573 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,573 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,574 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,574 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,574 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,574 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,575 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,575 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,575 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,576 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,576 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,576 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,576 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,577 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,578 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,578 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,579 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,579 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,579 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,579 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,580 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,580 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,581 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,581 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,581 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,581 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,581 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,583 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,583 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,583 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,584 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,585 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,586 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,587 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,587 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,587 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,587 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,588 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,588 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,588 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,588 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,589 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,589 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,589 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,590 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,590 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,590 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,591 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,591 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,591 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,591 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,592 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,592 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,592 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,593 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,593 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,593 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,593 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,594 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,594 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,594 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,595 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,595 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,595 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,595 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,596 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,596 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,596 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,596 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,597 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,597 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,597 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,598 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,599 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,599 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,599 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,600 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,600 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,600 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,601 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,601 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,601 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,602 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,602 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,603 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,603 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,604 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,604 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,604 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,604 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,605 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,605 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,605 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,606 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,606 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,606 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,607 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,607 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,607 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,608 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,609 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,610 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,610 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,611 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,612 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,612 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,613 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,613 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,613 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,613 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,614 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,614 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,614 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,615 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,615 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,615 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,615 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,616 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,616 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,616 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,616 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,617 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,617 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,617 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,620 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,621 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,621 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,621 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,622 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,622 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,623 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,623 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,623 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,623 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,624 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,624 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,624 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,625 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,625 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,625 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,625 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,626 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,627 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,628 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,628 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,629 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,629 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,629 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,630 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,630 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,630 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,630 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,631 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,631 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,631 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,632 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,632 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,632 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,632 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,633 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,633 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,633 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,633 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,634 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,634 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,634 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,635 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,636 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,638 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,638 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,639 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,639 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,639 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,640 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,640 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,640 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,640 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,641 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,641 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,641 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,642 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,642 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,642 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,643 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,644 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,644 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,644 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,645 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,645 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,645 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,646 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,646 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,646 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,646 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,647 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,647 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,647 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,648 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,648 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,648 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,648 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,648 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,649 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,649 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,649 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,649 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,649 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,650 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,650 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,650 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,650 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,650 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,651 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,651 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,652 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,652 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,652 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,653 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,653 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,653 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,654 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,654 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,654 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,655 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,655 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,655 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,655 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,656 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,656 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,656 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,657 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,657 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,657 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,658 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,658 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,658 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,659 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,659 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,660 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,662 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,662 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,662 - __main__ - INFO - Loaded document: data\upload_2a17d14e-c1aa-47ac-8493-8a6b27234a10\SystemDesign.pdf
+2025-04-03 15:55:46,680 - __main__ - INFO - Created 735 text chunks
+2025-04-03 15:55:46,682 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:55:46,683 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:55:50,077 - __main__ - WARNING - Creating new vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open vectorstore\db_faiss\index.faiss for reading: No such file or directory
+2025-04-03 15:56:07,296 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:56:07] "POST /process HTTP/1.1" 200 -
+2025-04-03 15:56:27,304 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:56:27] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:56:27,571 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:56:27,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:56:33,343 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:56:33] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:57:07,395 - __main__ - INFO - Uploaded file locally: data/upload_0b7db21b-a0b5-4800-8dfb-186d12a5395c\Important_topics_interview.pdf
+2025-04-03 15:57:07,409 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://pdfstorageyourapp.blob.core.windows.net/pdf-files/ddacf196-c015-4af0-8289-33fd1d2ced40_Important_topics_interview.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '54445'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.25.0 Python/3.12.1 (Windows-11-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '31acdfc5-1076-11f0-b1cf-98fa9b562e11'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-04-03 15:57:07,875 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 03 Apr 2025 10:27:07 GMT'
+    'ETag': '"0x8DD729A15FCBFCB"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'cf77f5df-d01e-005e-2d82-a41300000000'
+    'x-ms-client-request-id': '31acdfc5-1076-11f0-b1cf-98fa9b562e11'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 03 Apr 2025 10:27:07 GMT'
+2025-04-03 15:57:07,877 - __main__ - INFO - Uploaded file to blob storage: ddacf196-c015-4af0-8289-33fd1d2ced40_Important_topics_interview.pdf
+2025-04-03 15:57:07,939 - __main__ - INFO - Loaded 1 pages from 1 PDF files
+2025-04-03 15:57:07,940 - __main__ - INFO - Loaded document: data\upload_0b7db21b-a0b5-4800-8dfb-186d12a5395c\Important_topics_interview.pdf
+2025-04-03 15:57:07,942 - __main__ - INFO - Created 5 text chunks
+2025-04-03 15:57:07,947 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:57:07,948 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:57:13,141 - __main__ - INFO - Added new documents to existing vector store
+2025-04-03 15:57:13,143 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:13] "POST /process HTTP/1.1" 200 -
+2025-04-03 15:58:00,543 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:58:00] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:58:00,810 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:58:00,811 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:58:08,091 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:58:08] "POST /query HTTP/1.1" 200 -
+2025-04-03 15:59:51,811 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:59:51] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 15:59:52,087 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 15:59:52,087 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 15:59:58,887 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:59:58] "POST /query HTTP/1.1" 200 -
+2025-04-03 16:01:57,469 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:01:57] "OPTIONS /query HTTP/1.1" 200 -
+2025-04-03 16:01:57,731 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-03 16:01:57,732 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-03 16:02:04,892 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:02:04] "POST /query HTTP/1.1" 200 -
